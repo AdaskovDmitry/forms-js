@@ -1,0 +1,67 @@
+.gallery {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.gallery li {
+    flex : 0 0 200px; 
+    padding:10px;
+}
+
+.gallery li img{
+    width: 100%;
+    padding: 3px;
+    border: 1px solid #ccc;
+}
+
+.gallery li img.active{
+
+    border: 1px solid red;
+}
+
+.main {
+    width: 500px;
+    position: relative;
+}
+
+.main img{
+    width: 100%;
+    
+}
+.main .text{
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    padding: 10px;
+    top :20px;
+    left:20px;
+    color: #fff;
+}
+
+.active{
+    background: #ddd;
+}
+
+table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+table tfoot td {
+    background: #ddd;
+}
+
+.error {
+    border: 1px solid red;
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+
